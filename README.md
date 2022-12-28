@@ -1,8 +1,7 @@
+# Copyright 2022 Jonghyeon Ko
+- This tool is free software under preparing published.
+
 # SustainableBPM_Simulator
-
-
-! Introduction
-- This tool is under preparing published.
 - The framework is composed of (i) Carbon Foot-print Process Discovery and (ii) Carbon-perspective Simulation for Digital Twin.
 
 ![framework_eng](https://user-images.githubusercontent.com/31530073/209848529-51d2d95a-ea5a-4595-b858-709750ebef37.png)
