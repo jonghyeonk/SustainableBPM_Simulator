@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+
+WARNING: Do not manually edit this file, unless you know what you are doing!
+
+This file has been generated with libPlg v.2.0.6.
+Check https://github.com/delas/plg for sources and other stuff.
+
+ -->
+<process>
+	<!-- This is the list of all meta-attributes of the process -->
+	<meta>
+		<LibPLG_NAME>libPlg</LibPLG_NAME>
+		<libPLG_VERSION>2.0.6</libPLG_VERSION>
+		<name>sid-654A2766-996A-49B2-8177-34E89D001F74</name>
+		<id>af2dhrjdnck3romues5pqfpkd8</id>
+	</meta>
+	<!-- This is the list of all actual process elements -->
+	<elements>
+		<startEvent id="0"/>
+		<task id="2" name="Base Mixer (MachineA.1)">
+			<script/>
+		</task>
+		<task id="3" name="Base Mixer (MachineA.2)">
+			<script/>
+		</task>
+		<task id="4" name="Weighing (MachineB.1)">
+			<script/>
+		</task>
+		<task id="5" name="Inter Mixer (MachineC.1)">
+			<script/>
+		</task>
+		<task id="6" name="Dumping &amp; Mixing Mil
+(MachineD.1)">
+			<script/>
+		</task>
+		<task id="7" name="Compound
+(MachineE.1)">
+			<script/>
+		</task>
+		<task id="8" name="Compound
+(MachineE.2)">
+			<script/>
+		</task>
+		<task id="9" name="Loading
+(MachineF.1)">
+			<script/>
+		</task>
+		<task id="10" name="Extruder
+(MachineG.1)">
+			<script/>
+		</task>
+		<task id="11" name="Base Mixer (MachineA.3)">
+			<script/>
+		</task>
+		<task id="12" name="Coating
+(MachineH.1)">
+			<script/>
+		</task>
+		<task id="13" name="Coating
+(MachineH.2)">
+			<script/>
+		</task>
+		<task id="14" name="Coating
+(MachineH.3)">
+			<script/>
+		</task>
+		<task id="15" name="Cooling zone
+(MachineI.1)">
+			<script/>
+		</task>
+		<task id="16" name="Cutting
+(MachineJ.1)">
+			<script/>
+		</task>
+		<task id="17" name="Cutting
+(MachineJ.2)">
+			<script/>
+		</task>
+		<task id="18" name="Cutting
+(MachineJ.3)">
+			<script/>
+		</task>
+		<gateway id="19" type="ExclusiveGateway"/>
+		<gateway id="20" type="ExclusiveGateway"/>
+		<gateway id="21" type="ExclusiveGateway"/>
+		<gateway id="22" type="ExclusiveGateway"/>
+		<gateway id="23" type="ExclusiveGateway"/>
+		<gateway id="24" type="ExclusiveGateway"/>
+		<gateway id="25" type="ExclusiveGateway"/>
+		<gateway id="26" type="ExclusiveGateway"/>
+		<endEvent id="1"/>
+		<sequenceFlow id="27" sourceRef="0" targetRef="19"/>
+		<sequenceFlow id="28" sourceRef="19" targetRef="2"/>
+		<sequenceFlow id="29" sourceRef="19" targetRef="3"/>
+		<sequenceFlow id="30" sourceRef="2" targetRef="20"/>
+		<sequenceFlow id="31" sourceRef="20" targetRef="4"/>
+		<sequenceFlow id="32" sourceRef="3" targetRef="20"/>
+		<sequenceFlow id="33" sourceRef="4" targetRef="5"/>
+		<sequenceFlow id="34" sourceRef="5" targetRef="6"/>
+		<sequenceFlow id="35" sourceRef="6" targetRef="21"/>
+		<sequenceFlow id="36" sourceRef="21" targetRef="7"/>
+		<sequenceFlow id="37" sourceRef="21" targetRef="8"/>
+		<sequenceFlow id="38" sourceRef="7" targetRef="22"/>
+		<sequenceFlow id="39" sourceRef="8" targetRef="22"/>
+		<sequenceFlow id="40" sourceRef="22" targetRef="9"/>
+		<sequenceFlow id="41" sourceRef="19" targetRef="11"/>
+		<sequenceFlow id="42" sourceRef="11" targetRef="20"/>
+		<sequenceFlow id="43" sourceRef="10" targetRef="23"/>
+		<sequenceFlow id="44" sourceRef="23" targetRef="12"/>
+		<sequenceFlow id="45" sourceRef="23" targetRef="13"/>
+		<sequenceFlow id="46" sourceRef="23" targetRef="14"/>
+		<sequenceFlow id="47" sourceRef="12" targetRef="24"/>
+		<sequenceFlow id="48" sourceRef="13" targetRef="24"/>
+		<sequenceFlow id="49" sourceRef="14" targetRef="24"/>
+		<sequenceFlow id="50" sourceRef="24" targetRef="15"/>
+		<sequenceFlow id="51" sourceRef="15" targetRef="25"/>
+		<sequenceFlow id="52" sourceRef="25" targetRef="16"/>
+		<sequenceFlow id="53" sourceRef="25" targetRef="17"/>
+		<sequenceFlow id="54" sourceRef="25" targetRef="18"/>
+		<sequenceFlow id="55" sourceRef="16" targetRef="26"/>
+		<sequenceFlow id="56" sourceRef="17" targetRef="26"/>
+		<sequenceFlow id="57" sourceRef="18" targetRef="26"/>
+		<sequenceFlow id="58" sourceRef="26" targetRef="1"/>
+		<sequenceFlow id="59" sourceRef="9" targetRef="10"/>
+	</elements>
+</process>
