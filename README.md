@@ -9,7 +9,7 @@
 
 - The purpose of this tool is to simulate/observe the reduction of carbon-emission by change of facilities in manufactures under python environment.
 - The main functions are extended from basic process mining functions developed by Timo Nolle [1].
-- To run this, look at the main.ipynb file.
+- To run this, look at the main.ipynb file. (It is currently under development, so it does not show much works.)
 
 [1] https://github.com/tnolle/binet
 
